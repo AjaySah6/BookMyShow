@@ -4,7 +4,9 @@ import org.example.bookmyshow.dtos.UserSignUpRequestDto;
 import org.example.bookmyshow.dtos.UserSignUpResponseDto;
 import org.example.bookmyshow.models.User;
 import org.example.bookmyshow.service.UserService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class UserController {
     private UserService userService;
 
