@@ -18,7 +18,7 @@ public class ShowSeat extends BaseModel{
     private Show show;
 
     @Enumerated(EnumType.ORDINAL)
-    private ShowSeatStatus seatStatus;
+    private ShowSeatStatus showSeatStatus = ShowSeatStatus.AVAILABLE; //AVAILABLE when a new ShowSeat is created
 
     private Date blockedAt;
 }

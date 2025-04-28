@@ -9,6 +9,7 @@ import java.util.List;
 @Entity
 @Data                                  // @Getter + @Setter
 public class Booking extends BaseModel{
+
     @Enumerated(EnumType.ORDINAL)
     private BookingStatus bookingStatus;
 
