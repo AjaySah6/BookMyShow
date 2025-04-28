@@ -16,7 +16,7 @@ public class BookingController {
         Booking booking;
 
         try {
-            // passing data drom requestDto directly to service class method
+            // passing data from requestDto directly to service class method
             booking = bookingService.issueTicket(requestDto.getUserId(), requestDto.getShowId(), requestDto.getShowSeatIds());
 
             responseDto.setBookingId(booking.getId());
